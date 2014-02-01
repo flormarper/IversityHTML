@@ -39,11 +39,60 @@
     </head>
     <body>
 
-        <!-- Add your site or application content here -->
-        <H> TITULO DE LA WEB</H>
-        <br>
-        <p> WEB EN CONSTRUCCION</p><br>
+        <!-- TODO-->
 
+        <div class="central">
+			<h1>FIRST WEB TEST</h1>
+			<p>This is my first web test</p>
+			<br>
+			<div class="fondo">
+				<h2 id="Video">VIDEO IN MY WEB </h2>
+				The next video has a subttitle.<br>
+				<div class="reproVideo">
+					<video width="640" height="360" controls>
+		  				<source src="video/small.ogv" type="video/ogg">
+		  				<track src="video/VideoTest_en.vtt" kind="subtitles" srclang="en" label="English">
+	  					Your browser does not support the video tag.
+					</video> 
+				</div>
+				<br>
+				<p style=text-align:left >
+    				<strong>Original Link : </strong>
+					<a href="http://www.youtube.com/watch?v=gUN5ioqlh5U">Machine</a>
+				</p>	
+			</div>
+			<br>
+			<div class="fondo">
+				<h2 id="Video">VIDEO IN YOUTUBE </h2>
+				<div class="reproVideo">
+					<iframe width="640" height="360" src="http://www.youtube.com/embed/gUN5ioqlh5U?feature=player_detailpage" frameborder="0" allowfullscreen></iframe>
+				</div>
+				<br>
+				<a href="http://www.youtube.com/watch?v=gUN5ioqlh5U">Youtube link</a>
+			</div>
+			<br>
+			<div class="fondo">
+				<h2 id="Video">PLAY A EXTERNAL WEB VIDEO INSIDE MY WEB</h2>
+				<div class="reproVideo">
+	  				<video class="video-js" width="640" height="300" controls>
+	    				<source src="http://video-js.zencoder.com/oceans-clip.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+	    				Your browser does not support the video tag.
+	    			<!--	<source src="http://video-js.zencoder.com/oceans-clip.webm" type='video/webm; codecs="vp8, vorbis"'> -->
+	    			<!--	<source src="http://video-js.zencoder.com/oceans-clip.ogg" type='video/ogg; codecs="theora, vorbis"'> -->
+	 			 	</video>
+	 			 	<p style=text-align:left >
+    					<strong>Download the video pressing  the right button mouse: </strong>
+    					<a href="http://video-js.zencoder.com/oceans-clip.mp4">MP4</a> | 
+    					<a href="http://video-js.zencoder.com/oceans-clip.webm">WebM</a> | 
+    					<a href="http://video-js.zencoder.com/oceans-clip.ogg">Ogg</a>
+  					</p>
+	  			</div>
+	  			<br>
+			</div>
+			<br>
+		</div>
+
+		
         <script src="js/vendor/zepto.min.js"></script>
         <script src="js/helper.js"></script>
 

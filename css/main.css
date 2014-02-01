@@ -21,6 +21,8 @@ textarea {
 body {
     font-size: 1em;
     line-height: 1.4;
+    color:#000000;
+    background-color:#cbc7ff;
 }
 
 a {
@@ -64,8 +66,43 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+.central{	
+   		width:60%;
+		background-color:#9e7892;
+		padding: 5px;
+		border: 5px solid #C3919e;
+		margin: 5px 0% 5px 25%;
+}
 
 
+.fondo {background-color:#c3868F;
+}
+
+.reproVideo{
+		width:640px; 
+		height:360px;
+		background-color:#947883;
+		border:#000 1px solid; 
+		margin:auto; 
+		text-align:center;
+}
+
+p{text-align:center;}
+h1{color:#8100FF;
+   text-align:center;
+   border-style:double;
+   border-width:2px;
+   border-color:#473A7E;
+}
+h2{color:#4717B5;
+   text-align:center;
+}
+h3{color:#8B3AFF;
+   text-align:center;
+   border-style:dotted;
+   border-width:2px;
+   border-color:#473A7E;
+}
 
 
 
